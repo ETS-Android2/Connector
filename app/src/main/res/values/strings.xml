@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Connector</string>
+    <string name="title_main">Connector by Lahav Harary</string>
+
+    <string name="btn_send_email">Send Email</string>
+    <string name="btn_call_someone">Call Someone</string>
+    <string name="btn_about_me">About me</string>
+    <string name="btn_share_our_logo">Share our logo</string>
+    <string name="btn_share_our_app">Share our app</string>
+    <string name="btn_capture_the_moment">Capture the moment</string>
+
+    <string name="title_call_some_one">Welcome to call some one</string>
+    <string name="explain_call_some_one">In this activity you can open phone dialer with a number
+          <br></br>
+        that you would like to call. </string>
+    <string name="insert_number_def">0123456789</string>
+    <string name="title_about_me">Welcome to About Me section</string>
+    <string name="explain_about_me">
+        My name is Lahav Harary,
+        I am a top student at Holon Institute of technology
+        <br></br>
+        In this section you will be able to find my GitHub page, resume website and Linkedin.
+        <br></br>
+        Please note, that LinkedIn will ask you to create account / sign in to existing one
+    </string>
+    <string name="git_hub_btn">Open github</string>
+    <string name="personal_website_btn">Open website</string>
+    <string name="linkedin_btn">Open linkedin</string>
+    <string name="title_send_mail">Welcome to send mail sention</string>
+    <string name="explain_about_mail"></string>
+    <string name="insert_text">insert text here</string>
+    <string name="send_mail_btn">send</string>
+    <string name="share_app_btn">Share the app!</string>
+    <string name="share_message">"Make sure to try out the new Connector application download
+        from here: https://lahavcv.netlify.app/"</string>
+    <string name="save_contact">"Save contact"</string>
+
+    <string name="share_our_logo">Share</string>
+    <string name="share_our_logo_msg">It would mean a lot to us if you would share our logo with your friends, thank you</string>
+
+    <string name="camera_btn">Open camrea</string>
+    <string name="capture_the_moment_text">Do not let those precious moments slip away</string>
+
+</resources>

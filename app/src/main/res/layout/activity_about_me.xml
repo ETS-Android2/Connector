@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutMe"
+    android:background="@drawable/about_me_activity_background"
+    >
+
+    <TextView
+        android:id="@+id/title_about_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/title_about_me"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <TextView
+        android:id="@+id/explanation_about_me"
+        android:layout_width="329dp"
+        android:layout_height="108dp"
+        android:text="@string/explain_about_me"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_about_me"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <Button
+        android:id="@+id/git_hub_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/git_hub_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/explanation_about_me"
+        app:layout_constraintVertical_bias="0.105"
+        android:onClick="onClickOpenGitHub"
+        android:background="@drawable/my_shape_blue"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/website_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/personal_website_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/git_hub_btn"
+        android:onClick="onClickOpenWebSite"
+        android:background="@drawable/my_shape_blue"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/linkedin_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/linkedin_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/website_btn"
+        android:onClick="onClickOpenLinkedIn"
+        android:background="@drawable/my_shape_blue"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

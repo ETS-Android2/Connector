@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".SendEmail"
+    android:background="@drawable/send_email_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/bg_round"
+        android:textColor="@color/black"
+        >
+
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="To"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_to"
+            android:background="@android:color/transparent"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_subject"
+        android:hint="Write subject here"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_round"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_weight="1"
+        android:id="@+id/et_message"
+        android:hint="Write Message here "
+        android:textColorHint="@color/black"
+        android:padding="10dp"
+        android:gravity="top"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_round"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/bt_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/my_shape_blue"
+        android:text="Send"
+        android:onClick="onSendEmail"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+
+
+</LinearLayout>
+
